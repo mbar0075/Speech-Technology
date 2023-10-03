@@ -1,2 +1,2 @@
-# Speeh Technology
+# Speech Technology
  
