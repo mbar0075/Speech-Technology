@@ -151,5 +151,8 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 
+.vscode/
+.idea/
+
 # Dataset File:
 ABI-1 Corpus/
