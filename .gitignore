@@ -156,3 +156,9 @@ cython_debug/
 
 # Dataset File:
 ABI-1 Corpus/
+
+# pickle files
+training_set.pickle
+test_set.pickle
+validation_set.pickle
+.h5
