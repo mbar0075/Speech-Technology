@@ -158,7 +158,5 @@ cython_debug/
 ABI-1 Corpus/
 
 # pickle files
-training_set.pickle
-test_set.pickle
-validation_set.pickle
-.h5
+filtered_data
+*.h5
