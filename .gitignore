@@ -160,3 +160,4 @@ ABI-1 Corpus/
 # pickle files
 filtered_data
 *.h5
+hyperparameter_tuning
