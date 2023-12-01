@@ -1,4 +1,4 @@
-name: Speech Technology
+name: SpeechTechnology
 channels:
   - conda-forge
   - defaults
@@ -284,4 +284,4 @@ dependencies:
       - wrapt==1.14.1
       - yarl==1.9.2
       - zipp==3.17.0
-prefix: C:\Users\User\anaconda3\envs\Speech Technology
+prefix: C:\Users\User\anaconda3\envs\SpeechTechnology
