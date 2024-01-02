@@ -105,15 +105,13 @@ TensorFlow Keras was utilized for training due to its user-friendly interface an
 
 Models 1 and 5 demonstrated superior performance in test accuracy, precision, recall, and F-score compared to others. However, model 2, employing the MFCC feature extractor, consistently yielded comparatively poor results. Models utilizing the Mel Spectrogram feature extractor outperformed MFCC-based models consistently. Performance metrics ranged between `0.8` and `0.97`, indicating substantial model performance, with test loss ranging between `0.14` and `0.65`, indicating avoidance of overfitting.
 
-Following the discovery of model 1's superior efficiency, a rigorous hyperparameter tuning process refined its parameters, showcasing significant performance improvements.
-
-### Best Model Architecture
-
 Following the discovery of model 1’s superior efficiency, a comprehensive hyperparameter tuning process involving fifteen trials fine-tuned its parameters. The best hyperparameters found were a learning rate of `0.001`, a dropout rate of `0.4`, and the application of the `tanh` activation function specifically to the second layer in the model architecture of model 1, while the remaining layers utilized `relu`.
 
 <p align='center'><img src="Assignment\plots\best_model_mel_accuracy.png" alt="Best Model Training"/></p>
 
 The findings highlighted a notable performance improvement achieved by optimizing the best model with these refined parameters compared to the original Model 1.
+
+### Best Model Architecture
 
 <p align="center">
 
