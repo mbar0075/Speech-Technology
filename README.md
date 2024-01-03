@@ -10,6 +10,8 @@ Corpus Analysis and Performance Evaluation
 
 <!-- </p>
 </center> -->
+<p align="justify">
+
 This repository contains all the code and findings from the research study `"Deep Learning for Speaker Identification: Architectural Insights from AB-1 Corpus Analysis and Performance Evaluation"`.
 
 ## Abstract
@@ -174,3 +176,5 @@ Regarding accent accuracy, there was a more noticeable difference between the be
 ## Conclusion
 
 This study investigated the effectiveness of Mel Spectrogram and MFCC as feature extraction methods for Speaker Identification (SID) and proposed robust model architectures tailored for SID. The best model exhibited significant accuracy, precision, recall, and F1-score of 0.97, highlighting the efficacy of these techniques. Gender analysis revealed minimal variation, confirming dataset balance and the absence of gender bias in predictions. However, accent accuracy showed more noticeable differences, emphasizing the necessity for further analysis and model refinement, particularly in addressing accent-related challenges in SID.
+
+</p>
